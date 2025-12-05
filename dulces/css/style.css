@@ -1,0 +1,8 @@
+/* Estilos adicionales / overrides */
+body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+
+/* botón instalar visible pequeño */
+.install-visible { display: inline-block !important; }
+
+/* tamaño máximo de imágenes en modal para mejorar UX */
+#lista-pedido-modal img { max-width: 64px; max-height: 64px; object-fit: cover; }
